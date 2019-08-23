@@ -1,0 +1,20 @@
+micronaut:
+    application:
+        name: eureka-health-issue
+endpoints:
+  health:
+    enabled: true
+    sensitive: false
+    details-visible: ANONYMOUS
+# spring:
+#   cloud:
+#     config:
+#       enabled: true
+#       retry-attempts: 4
+#       retry-delay: 2s
+eureka:
+  client:
+    registration:
+      enabled: false
+    discovery:
+      enabled: false

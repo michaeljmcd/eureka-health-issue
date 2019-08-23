@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: eureka.health.issue
+---
+testFramework: junit
+sourceLanguage: java
